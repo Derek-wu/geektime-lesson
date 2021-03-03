@@ -1,11 +1,16 @@
 package org.geektimes.projects.user.service;
 
 import org.geektimes.projects.user.domain.User;
+import org.geektimes.projects.user.repository.UserRepository;
 
 public class UserServiceImpl implements UserService{
+    UserRepository userRepository;
     @Override
     public boolean register(User user) {
-        return false;
+        if (queryUserById(user.getId()) != null) {
+            return false;
+        }
+        return userRepository.save(user);
     }
 
     @Override
@@ -20,7 +25,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public User queryUserById(Long id) {
-        return null;
+        return userRepository.getById(id);
     }
 
     @Override
