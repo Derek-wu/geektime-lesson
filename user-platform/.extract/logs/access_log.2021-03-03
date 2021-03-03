@@ -1,6 +1,0 @@
-127.0.0.1 - - [03/Mar/2021:15:09:16 +0800] GET /hello/world HTTP/1.1 200 801 http-bio-8080-exec-1 122
-127.0.0.1 - - [03/Mar/2021:15:09:16 +0800] GET /static/js/bootstrap-4.6.0.min.js HTTP/1.1 304 - http-bio-8080-exec-6 20
-127.0.0.1 - - [03/Mar/2021:15:09:16 +0800] GET /static/js/jquery-3.5.1.slim.min.js HTTP/1.1 304 - http-bio-8080-exec-3 48
-127.0.0.1 - - [03/Mar/2021:15:09:16 +0800] GET /static/js/popper-1.16.1.min.js HTTP/1.1 304 - http-bio-8080-exec-4 24
-127.0.0.1 - - [03/Mar/2021:15:09:16 +0800] GET /static/css/bootstrap-4.6.0.min.css HTTP/1.1 304 - http-bio-8080-exec-1 58
-127.0.0.1 - - [03/Mar/2021:15:09:17 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-1 5
